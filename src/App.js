@@ -1,11 +1,9 @@
 import React from 'react';
-import styles from './App.module.css';
+import LandingPage from './landingPage/LandingPage';
 
 const App = () => {
   return (
-    <div className={styles.Center}>
-      Leggo!
-    </div>
+    <LandingPage />
   )
 }
 
